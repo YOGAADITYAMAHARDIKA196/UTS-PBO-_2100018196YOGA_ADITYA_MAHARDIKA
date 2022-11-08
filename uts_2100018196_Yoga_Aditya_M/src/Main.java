@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int pilih;
+        
+        Scanner in = new Scanner(System.in);
    
         System.out.println("==================================");
         System.out.println("1.Lihat Gaji Dosen");
